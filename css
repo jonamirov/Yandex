@@ -19,6 +19,7 @@ header,div{
     max-height: 600px;
     min-height: 756px;
     height: 100vh;
+    margin-bottom: 100px;
 }
 .logo{
     z-index: 4;
@@ -49,7 +50,7 @@ header,div{
     bottom: 34px;   
 
 }
-.header__main-illustration{
+.header__square-pic{
     z-index: 0;
     right: 0px;
     position: absolute;
@@ -58,7 +59,7 @@ header,div{
     height: 586px;
     background-color: #2f80ed;
 }
-.header__square-pic{
+.header__main-illustration{
     z-index: 1;
     position: absolute;
     right: 0px;
@@ -67,7 +68,7 @@ header,div{
     width: 765px;
 }
 .two-colums{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -79,4 +80,29 @@ header,div{
     font-size: 18px;
     font-style: normal;
     
+}
+.two-colums__main-text{
+    top: 20px;
+    left: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 80%;
+    min-width: 784px;
+}
+.two-colums__paragraph{
+    margin: 0px;
+    line-height: 34px;
+    font-size: 24px;
+    font-style: normal;
+    padding-bottom: 30px;
+}
+.two-colums__paragrap:last-of-type{
+    padding: 0px;
+
+}
+.two-colums__span-accent{
+    line-height: 34px;
+    font-size: 24px;
+    font-style: bold;
 }
