@@ -3,6 +3,7 @@ header,div{
 }
 .body{
     margin: 0px;
+    padding: 0px;
 }
 .page{
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -67,12 +68,14 @@ header,div{
     height: 608px;
     width: 765px;
 }
-.two-colums{
+.two-columns{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 .two-colums__brief{
+    top: 55px;
+    left: 40px;
     width: 175px;
     color: #2f80ed;
     margin:0px;
@@ -82,25 +85,21 @@ header,div{
     
 }
 .two-colums__main-text{
-    top: 20px;
-    left: 300px;
+    top:0px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap:nowrap;
     flex-direction: column;
     width: 80%;
     min-width: 784px;
 }
 .two-colums__paragraph{
-    margin: 0px;
+    margin-top: 0px;
     line-height: 34px;
     font-size: 24px;
     font-style: normal;
     padding-bottom: 30px;
 }
-.two-colums__paragrap:last-of-type{
-    padding: 0px;
 
-}
 .two-colums__span-accent{
     line-height: 34px;
     font-size: 24px;
