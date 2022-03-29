@@ -68,14 +68,19 @@ header,div{
     height: 608px;
     width: 765px;
 }
+.description{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 .two-columns{
+    width: 80%;
+    min-width: 784px;
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 .two-colums__brief{
-    top: 55px;
-    left: 40px;
     width: 175px;
     color: #2f80ed;
     margin:0px;
@@ -90,7 +95,6 @@ header,div{
     flex-wrap:nowrap;
     flex-direction: column;
     width: 80%;
-    min-width: 784px;
 }
 .two-colums__paragraph{
     margin-top: 0px;
@@ -102,6 +106,7 @@ header,div{
 
 .two-colums__span-accent{
     line-height: 34px;
-    font-size: 24px;
+ 
     font-style: bold;
 }
+ 
