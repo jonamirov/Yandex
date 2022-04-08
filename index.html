@@ -2,14 +2,16 @@
 <html>
     <header>
         <meta charset="UTF-8">
+        <meta charset="&8594">
         <meta name="viewport" content="width=device-wudth, initial-scale=1">
-        <link rel="stylesheet" href="./css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./normalize.css">
         <title>Портфолио</title>
     </header>
     <body class="body">
       <div class="page">
           <header class="header">
-              <img src="./images1/logo.svg" class="logo logo_place_header">
+              <img src="./images1/logo.svg" class="logo logo_place_header" alt="грусный внук)">
               <h1 class="header__title">
                 Научится учиться 
               </h1>
@@ -77,11 +79,12 @@
             </section>
             <section class="feynman">
                     <h2 class="feynman-title">Метод Фейнмана</h2>
-                    <img src="./images1/feinman.png" class="feynman__main-illustration">
+                    <img src="./images1/feinman.png" class="feynman__main-illustration" alt="feynman">
                     <h3 class="feynman-subtitle">Выучить и не забыть</h3>
                     <a href="#" class="feynman__link">Подробнее</a>
             </section>
             <section class="kaufman">
+                <img src="./images1/triangle.svg" class="feynman-triangel " alt="треугольник">
                 <div class="new">
                     <h2 class="section-title_theme_dark">Принципы обучения</h2>
                     <p class="section-subtitle__them_dark">от Джоша Кауфмана</p>
@@ -150,21 +153,30 @@
                 </div>
             </section>
             <footer class="footer">
-                <div class="footer-columns">
-                    <div class="footer-columns__content__info" >
-                        <p class="p">sfsdf</p>
-                        <p class="p">sfsdf</p>
-                        <p class="p">sfsdf</p>
-                        <p class="p">sfsdf</p>
-                        <p class="p">sfsdf</p>
-                        <p class="p">sfsdf</p>
-                    </div>
-
-                </div>
-
-
-
-            </footer>
+                <div class="footer__columns">
+                    <div class="footer__column footer__columns_content_copyright">                  
+                        <img src="./images1/logo_white.svg " class="logo logo_place_footer" alt="logo__footer">
+                        <p class="footer__author">&copy; 2022. Джон Амиров</p>
+                     </div>
+                     <nav class="footer__column footer__columns_content_info">
+                        <h4 class="footer__columns-heading">О Практикуме</h4>
+                        <ul class="footer__columns-links">
+                            <li><a href="#" class="footer__columns-link">Главная</a></li>
+                            <li><a href="#" class="footer__columns-link">Концепция</a></li>
+                            <li><a href="#" class="footer__columns-link">Наставники</a></li>
+                        </ul>
+                     </nav>
+                    </nav>
+                    <nav class="footer__column footer__columns_content_social">
+                      <h4 class="footer__columns-heading">Соцсети</h4>
+                      <ul class="footer__columns-links">
+                        <li><a href="#" class="footer__columns-link"><img src="./images1/facebook_white.svg" alt="facebook" class="footer__social-icon">Facebook</a></li>
+                        <li><a href="#" class="footer__columns-link"><img src="./images1/vk_white.svg" alt="ВКонтакте" class="footer__social-icon">ВКонтакте</a></li>
+                        <li><a href="#" class="footer__columns-link"><img src="./images1/instagram_white.svg" alt="Instagram" class="footer__social-icon">Instagram</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </footer>
 
     </body>
     
