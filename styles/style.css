@@ -139,9 +139,9 @@
     top: 100px; 
     display: flex; 
     margin: auto 32%; 
-    z-index: 1; 
-    width: 648px; 
-    font-size: 120px; 
+    z-index: 4; 
+    width: 60%; 
+    font-size: 60px; 
     font-weight: bold; 
     line-height: 1.15; 
 }
