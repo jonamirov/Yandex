@@ -361,8 +361,8 @@
     line-height: 30px;
 }
 
-.footer__column-links {
-    display: flex;
+.footer__column-links{
+    display:flex;
     flex-direction: column;
     list-style: none;
     padding-left: 0;
