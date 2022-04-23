@@ -184,6 +184,9 @@
 }
 
 .feynman {
+    background-image: url(../images/feinman.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
     z-index: 0;
     min-height: 890px;
     position: relative;
@@ -191,7 +194,7 @@
 }
 
 .feynman__title {
-    z-index: 2;
+    z-index: 3;
     font-weight: bold;
     line-height: 1.15;
     width: 648px;
@@ -205,19 +208,11 @@
     margin-top: 0px;
 }
 
-.feynman__main-illustration {
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    z-index: 1;
-
-}
-
 .feynman__subtitle {
     position: absolute;
     z-index: 2;
     text-align: center;
-    margin: 70px auto;
+    margin: 0px auto;
     font-size: 36px;
     line-height: 51px;
     font-weight: normal;
@@ -237,7 +232,6 @@
 }
 
 .kaufman {
-    border: 2px solid rebeccapurple;
     padding-bottom: 90px;
     overflow: hidden;
     position: relative;
@@ -388,3 +382,4 @@
     height: 16px;
     margin-right: 10px;
 }
+/*Надеюсь хоть на этот раз все получилось :((*\
