@@ -209,15 +209,13 @@
 }
 
 .feynman__subtitle {
-    position: absolute;
     z-index: 2;
     text-align: center;
-    margin: 0px auto;
+    margin:70px auto 0px auto;
     font-size: 36px;
     line-height: 51px;
     font-weight: normal;
-    top: 50%;
-    right: 35%;
+    /*тут было еще right и top думаю они уже не нужны тут*/
 }
 
 .feynman__link {
